@@ -87,3 +87,17 @@ body {
 .box.winner-box {
     background-color: var(--shadow-color);
 }
+
+@media (wdith > 576x) {
+body {
+    align-items: start;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.tittle {
+    padding-top: 50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+}
